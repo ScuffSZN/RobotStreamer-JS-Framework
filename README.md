@@ -1,2 +1,3 @@
 # RobotStreamer-JS-Framework
-DO NOT USE, Doesn't work yet...
+---
+Client side framework for [RobotStreamer](http://robotstreamer.com).
