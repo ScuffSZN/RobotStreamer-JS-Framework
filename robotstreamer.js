@@ -68,5 +68,4 @@ var getVideo = (id) => {
                 resolve(j);
             }
         });
-    },
-    errors = ["Robot exists and is online.", "No streamer found.", "Invalid ID, must be a number.", "Streamer is offline.", "Connection has been interupted, trying to reconnect."]
+    }
