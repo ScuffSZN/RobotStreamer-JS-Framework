@@ -16,7 +16,7 @@ Client side framework for [RobotStreamer](http://robotstreamer.com).
 |                           `getVideo([camera_id])`                          | Returns video websocket server for receiving mpeg video feed from robotstreamer. You will need to get the camera id that is returned from `getOnline([robot_id])`.   |
 |                           `getAudio([camera_id])`                          | Returns video websocket server for receiving mpeg audio feed from robotstreamer. You will need to get the camera id that is returned from `getOnline([robot_id])`.   |
 | `login({"password": "Account Password", "user_name": "Account Username"})` | Returns token, user_id, and user_name. You will need this for other functions such as `getUserSettings()` however it doesn't seem to be working right now.           |
-|          `{token": "User Token", "user_name": "Account Username"}`         | Returns user settings. Currently doesn't work. If you want to try and figure out what I did and help, that would be great. Always returns 500 server error.          |
+| `getUserSettings({token": "User Token", "user_name": "Account Username"})` | Returns user settings. Currently doesn't work. If you want to try and figure out what I did and help, that would be great. Always returns 500 server error.          |
 
 ## Error Codes and What They Mean
 
